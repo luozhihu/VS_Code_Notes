@@ -25,7 +25,7 @@
   
 <center>
 <img src="picture/paper/Embedded_model1.png" width="80%" />
-
-Figure 1. Lena
+<p style="text-align:center">我是文本，居中显示</p>
 </center>
+
  
