@@ -22,3 +22,10 @@
 * git remote –v
 * git push origin master
 * git pull
+  
+<center>
+<img src="picture/paper/Embedded_model1.png" width="80%" />
+
+Figure 1. Lena
+</center>
+ 
