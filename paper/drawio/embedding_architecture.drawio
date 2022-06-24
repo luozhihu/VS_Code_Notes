@@ -1,25 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T14:16:02.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="_CQGENlNGIWx7FY3PPie" version="18.0.2" type="github">
-  <diagram id="U0TusQwPSaEMN2f-DLNU" name="第 1 页">
-    <mxGraphModel dx="651" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="1iCxpe-SmWeh3k7O4z-S-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/business-and-education-1/512/209_Electric_tower_electricity_power_tower_computing-128.png" vertex="1" parent="1">
-          <mxGeometry width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1iCxpe-SmWeh3k7O4z-S-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/energy-and-power-glyph-24-px/24/Eco_house_ecological_house_green_house_house_leaf-128.png" vertex="1" parent="1">
-          <mxGeometry x="140" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1iCxpe-SmWeh3k7O4z-S-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/transportation-190/1000/aircraft_fighter_war_army_military_helicopter_helicopter_military-128.png" vertex="1" parent="1">
-          <mxGeometry x="240" y="60" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1iCxpe-SmWeh3k7O4z-S-4" value="" style="shape=mxgraph.signs.transportation.car_2;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="140" y="140" width="50" height="27.5" as="geometry" />
-        </mxCell>
-        <mxCell id="1iCxpe-SmWeh3k7O4z-S-5" value="" style="shape=mxgraph.signs.healthcare.intensive_care;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry y="110" width="50" height="50" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="U0TusQwPSaEMN2f-DLNU" name="第 1 页">
+        <mxGraphModel dx="1010" dy="1006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
