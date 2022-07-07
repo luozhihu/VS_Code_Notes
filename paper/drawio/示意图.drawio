@@ -1,0 +1,95 @@
+<mxfile host="65bd71144e">
+    <diagram id="YZrea7R2F8lgoUB3C2W3" name="第 1 页">
+        <mxGraphModel dx="433" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="444" pageHeight="312" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="48" y="70.5" width="94" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ACB5C2;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="66" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.197;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;strokeColor=#ACB5C2;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;rounded=0;sketch=0;strokeWidth=1;gradientColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="56" y="72" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;rounded=0;sketch=0;strokeWidth=1;gradientColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="96" y="109" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;strokeColor=#ACB5C2;" edge="1" parent="1" source="8" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;rounded=0;sketch=0;strokeWidth=1;gradientColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="56" y="109" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="70" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="b" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="108.25" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="9" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="83" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="95" y="108" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="48" y="90" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="75" y="114" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="目的：a，b，c可以相互通信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="34.5" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="47.5" y="150" width="94" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ACB5C2;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="65.5" y="191" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.197;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;strokeColor=#ACB5C2;" edge="1" parent="1" source="37" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;rounded=0;sketch=0;strokeWidth=1;gradientColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="55.5" y="152" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;rounded=0;sketch=0;strokeWidth=1;gradientColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="95.5" y="188" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;rounded=0;sketch=0;strokeWidth=1;gradientColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="55.5" y="188" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="a" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="54.5" y="151" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="94.5" y="187" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="b" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="54.5" y="187" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="13" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="74.5" y="164" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="42.5" y="170" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="b到c带宽最低是4，现在b与c没有直接链路，&lt;br&gt;因此b到c的通信要通过a。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="156.5" y="151" width="310" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="b到c带宽最低是4，a到c带宽最低是9，&lt;br style=&quot;font-size: 15px;&quot;&gt;因此b，a同时与c通信需要公用链路（a，c）。&lt;br style=&quot;font-size: 15px;&quot;&gt;所以（a，c）带宽最低要求是他们的和。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="141.5" y="198" width="330" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
