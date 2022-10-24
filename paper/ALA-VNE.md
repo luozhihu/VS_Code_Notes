@@ -68,7 +68,8 @@ $CPU(n^i_v) \le CPU(n^j_s)\quad and\quad n^j_s \in Candidate(n^i_v)$ [1]
 $bandwidth(n^k_v,n^l_v)\quad \le \quad bandwidth(n^m_s,n^n_s)\quad and\quad link(n^m_s,n^n_s) \ne null$,    [2]<br />
 公式【2】表示虚拟链路$link(n^k_v,n^l_v)$的带宽资源小于等于基板链路$link(n^m_s,n^n_s)$的带宽资源，并且节点$n^m_s$与节点$n^n_s$必须存在于候选节点集$Candidate(n^i_v)$中。其中$bandwidth(n^k_v,n^l_v)$,$bandwidth(n^m_s,n^n_s)$分别代表虚拟链路$link(n^k_v,n^l_v)$的带宽和基板链路$link(n^m_s,n^n_s)$的带宽。
 
-### 问题描述
+### 卷积核与特征矩阵
+我们使用的自适应学习模型是基于卷积神经网络的。卷积神经网络的关键是构造合适的卷积核与特征矩阵。本文将VNR抽象成一个二维的矩阵作为卷积核。为了描述物理节点与链路间的关系，我们把物理网络抽象为一个球面。
 
   
 
