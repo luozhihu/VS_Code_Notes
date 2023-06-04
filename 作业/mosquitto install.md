@@ -9,7 +9,7 @@ cd build
 cmake ..
 make && make install
 ```
-# 创建用户
+# 创建用户1
 ```
 sudo cp pwfile.example pwfile
 sudo mosquitto_passwd -c pwfile t1
