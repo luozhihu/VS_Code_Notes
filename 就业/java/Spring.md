@@ -69,5 +69,13 @@ public interface FactoryBean {
 
 BeanPostProcessor是存在于对象实例化阶段，而BeanFactoryPostProcessor则是存在于容器启动阶段，这两个概念就比较容易区分了。
 - BeanPostProcessor
+  - postProcessBeforeInitialization
+  - postProcessAfterInitialization
 - InitializingBean和init-method
+  - InitializingBean通过实现接口来调用
+  - init-method通过反射实现
 - DisposableBean与destroy-method
+# AOP
+- JDK动态代理是实现了被代理对象的接口，Cglib是继承了被代理对象。
+- JDK和Cglib都是在运行期生成字节码，JDK是直接写Class字节码，Cglib使用ASM框架写Class字节码，Cglib代理实现更复杂，生成代理类比JDK效率低。
+- JDK调用代理方法，是通过反射机制调用，Cglib是通过FastClass机制直接调用方法，Cglib执行效率更高。
