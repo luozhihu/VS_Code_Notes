@@ -53,8 +53,8 @@ public interface FactoryBean {
 - 当某个请求方通过容器的getBean方法明确地请求某个对象，或者因依赖关系容器需要隐式地调用getBean方法时就会启动Bean的实例化阶段。
 - 容器会首先检查所请求的对象之前是否已经初始化。如果没有，则会根据注册的BeanDefinition所提供的信息实例化被请求对象，并为其注入依赖。
 ### 插手“容器的启动”
-- PropertyPlaceholderConfigurer和PropertyOverrideConfigurer是两个比较常用的BeanFactoryPostProcessor。
-- PropertyPlaceholderConfigurer允许我们在XML配置文件中使用占位符（PlaceHolder），并将这些占位符所代表的资源单独配置到简单的properties文件中来加载。
+- Property**Placeholder**Configurer和Property**Override**Configurer是两个比较常用的BeanFactoryPostProcessor。
+- PropertyPlaceholderConfigurer允许我们**在XML配置文件中使用占位符**（PlaceHolder），并将这些占位符所代表的资源单独配置到简单的properties文件中来加载。
   - 当BeanFactory在第一阶段加载完成所有配置信息时，BeanFactory中保存的对象的属性信息还只是以占位符的形式存在，如${jdbc.url}、${jdbc.driver}。当PropertyPlaceholderConfigurer作为BeanFactoryPostProcessor被应用时，它会使用properties配置文件中的配置信息来替换相应BeanDefinition中占位符所表示的属性值。
 - 可以通过PropertyOverrideConfigurer对容器中配置的任何你想处理的bean定义的property信息进行覆盖替换。
 - CustomEditorConfigurer是另一种类型的BeanFactoryPostProcessor实现，它只是辅助性地将后期会用到的信息注册到容器，对BeanDefinition没有做任何变动。
