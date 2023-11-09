@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" modified="2023-08-04T13:55:25.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="yWJfhZ9_Vu2QqxK6nMkZ" version="21.6.6" type="device">
+  <diagram id="Nl9Pf9vaoAzUcp3Ux1hU" name="第 1 页">
+    <mxGraphModel dx="587" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="480" pageHeight="470" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="28" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="VNR Arrived" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=none;fillColor=#E0E9F1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="157.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="4" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;div style=&quot;&quot;&gt;model the network as a graph structure&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="6" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Training of Intelligent Agents for Reinforcement Learning" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="7" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Extracting network features using GCN" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="8" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="State Space and Action Space Definitions" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;align=center;" parent="1" source="9" target="19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Reinforcement Learning Policy Optimization" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry x="190" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="10" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Embedded Decision Making and Path Planning" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry x="360" y="247.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="27" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="41" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Bahnschrift Light;" parent="27" vertex="1" connectable="0">
+          <mxGeometry x="-0.2104" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="11" target="41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Constraint Escalation Strategy" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry x="360" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="29" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;align=center;" parent="1" source="12" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Substrate Network" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=none;fillColor=#E0E9F1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="157.5" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="39" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="19" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=none;fillColor=#E0E9F1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="215" y="187.5" width="70" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="36" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="3" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Thread 1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fillColor=#FCEBDD;strokeColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="227.5" width="65" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="38" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="310.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Thread N" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fillColor=#FCEBDD;strokeColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="220" y="330" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="37" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="310.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Thread 2" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fillColor=#FCEBDD;strokeColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="266.25" width="65" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Parallel Training" style="text;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;align=center;" parent="1" vertex="1">
+          <mxGeometry x="225" y="187.5" width="50" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;align=center;" parent="1" source="41" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Bahnschrift Light;" parent="43" vertex="1" connectable="0">
+          <mxGeometry x="-0.0149" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" value="Whether to Accept VNR" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;fontSize=12;fillColor=#FCEBDD;strokeColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4tIkLhmY1Dm8hJmilYUs-45" value="..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="235" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4tIkLhmY1Dm8hJmilYUs-46" value="&lt;div style=&quot;&quot;&gt;Model the Network as a Graph Structure&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4tIkLhmY1Dm8hJmilYUs-47" value="Extracting Network Features using GCN" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4tIkLhmY1Dm8hJmilYUs-48" value="Training of Intelligent Agents for Reinforcement Learning" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Bahnschrift Light;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DBahnschrift%2BLight;strokeColor=#E1D5E7;fillColor=#E1D5E7;align=center;" parent="1" vertex="1">
+          <mxGeometry y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
