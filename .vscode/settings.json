@@ -1,15 +1,16 @@
 {
     "markdown-pdf.displayHeaderFooter": true,
-    "markdown-pdf.convertOnSaveExclude": [
-        "^work",
-  "work.md$",
-  "work|test",
-  "[0-9][0-9][0-9][0-9]-work",
-  "work\\test"  // All '\' need to be written as '\\' (Windows)
-    ],
-    "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \"> <span class='date'></span></div>",
+  //   "markdown-pdf.convertOnSaveExclude": [
+  //       "^work",
+  // "work.md$",
+  // "work|test",
+  // "[0-9][0-9][0-9][0-9]-work",
+  // "work\\test"  // All '\' need to be written as '\\' (Windows)
+  //   ],
+    "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; font-family: '仿宋';\"> 罗志虎：%%ISO-DATE%%</div>",
     "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"> <span class='pageNumber'></span> / <span class='totalPages'></span></div>",
     "markdown-pdf.type": [
         "pdf"
-      ]
+      ],
+      "markdown-pdf.styles": ["C:\\Users\\luo_j\\Workspaces\\css\\markdown01.css"]
 }
