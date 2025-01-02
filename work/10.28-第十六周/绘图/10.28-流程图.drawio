@@ -1,0 +1,145 @@
+<mxfile host="65bd71144e">
+    <diagram id="T914mZJeEarHTb-eLNm4" name="Page-1">
+        <mxGraphModel dx="456" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100" pageHeight="100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontFamily=仿宋;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#b85450;fillColor=#f8cecc;strokeWidth=2;fontFamily=仿宋;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="采购意向保存接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="-198" y="-159" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="组装采购意向数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="-28" y="-199" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;" edge="1" parent="1" source="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="152" y="-129" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="122" y="-89"/>
+                            <mxPoint x="122" y="-129"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="组装采购意向推送任务数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="-28" y="-119" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;" edge="1" parent="1" source="5" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;" edge="1" parent="1" source="5" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="442" y="-129"/>
+                            <mxPoint x="442" y="71"/>
+                            <mxPoint x="392" y="71"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="保存数据到数据库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="152" y="-159" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="采购意向查询接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="92" y="-19" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="推送定时任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="92" y="101" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=仿宋;" edge="1" parent="1" source="10" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="采购意向" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="362" y="-19" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="推送任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="362" y="101" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;entryX=0.987;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=仿宋;" edge="1" parent="1" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="141" as="sourcePoint"/>
+                        <mxPoint x="212" y="141" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;exitX=0.98;exitY=0.322;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=仿宋;" edge="1" parent="1" source="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="212" y="120" as="sourcePoint"/>
+                        <mxPoint x="360" y="121" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="-130" y="260" width="20" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="24">
+                    <mxGeometry x="5" y="80" width="10" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="保存采购意向" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;" edge="1" parent="24" target="25">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="10" y="80" as="sourcePoint"/>
+                        <mxPoint x="220" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="采购意向查询" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;curved=1;" edge="1" parent="24" target="25">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="10" y="330" as="sourcePoint"/>
+                        <mxPoint x="90" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="采购意向系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="-18" y="260" width="100" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="25">
+                    <mxGeometry x="45" y="80" width="10" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="25">
+                    <mxGeometry x="45" y="330" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="保存推送任务" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;strokeColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;" edge="1" parent="25" target="26">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="48" y="130" as="sourcePoint"/>
+                        <mxPoint x="108" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="定时推送任务" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="385" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="推送系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="1">
+                    <mxGeometry x="162" y="260" width="170" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="26">
+                    <mxGeometry x="80" y="130" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.047;entryY=0.56;strokeColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;curved=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="38" parent="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="90" y="169.57999999999998" as="sourcePoint"/>
+                        <mxPoint x="160" y="169.5800000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="保存成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;curved=1;" edge="1" parent="26" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="88" y="210" as="sourcePoint"/>
+                        <mxPoint x="8" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="保存成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;curved=1;" edge="1" parent="1" target="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="30" y="510" as="sourcePoint"/>
+                        <mxPoint x="-50" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="返回查询结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#fff2cc;strokeWidth=2;fontFamily=仿宋;curved=1;" edge="1" parent="1" target="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="30" y="670" as="sourcePoint"/>
+                        <mxPoint x="-50" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
