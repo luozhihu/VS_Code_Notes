@@ -1,33 +1,43 @@
-groovyScript("
-def result='';
-def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); 
-for(i = 0; i < params.size(); i++) {
-    if(params[i] == '') return result;
-    if(i==0) result += '\\n'; 
-    result+=' * @param ' + params[i] + ' ' + params[i] + ((i < params.size() - 1) ?  '\\n' : '')
-    }; 
-    return result
-    ", methodParameters())
+技术目标： 技术成长、技术职责、技术创新
 
-groovyScript("
-def result = '';
-def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList();
-def maxLen = 0;
-for (i = 0; i < params.size(); i++) {
-    def paramLength = params[i].length();
-    if (maxLen < paramLength) {
-        maxLen = paramLength;
-    };
-};
-for (i = 0; i < params.size(); i++) {
-    if (params[i] == '') return result;
-    if(i==0) result += '\\n'; 
-    def paramLength = maxLen - params[i].length() + 1;
-    def spaces = '';
-    for (j in 1..paramLength) {
-        spaces += ' ';
-    };
-    result+=' * @param ' + params[i] + spaces + params[i] + ((i < params.size() - 1) ?  '\\n' : '');
-};
-return result
-", methodParameters())
+执行规范、执行架构设计、执行设计方案
+
+技术成长方面定目标
+
+技术规范、如何执行规范、执行设计方案
+
+
+
+站在新人技术成长的角度，从规范、架构、设计这三个方面，写三个目标，时间为一个月，并且为目标制定相应的计划。
+
+## 规范方面
+
+### 目标 
+
+深入理解并遵循公司现有的代码规范、文档规范，能够独立完成符合规范要求的简单模块开发及文档编写。
+
+### 计划
+
+1. 阅读公司现有代码库中的示例代码，分析其如何遵循代码规范。阅读公司语雀中的设计文档，学习开发文档的编写规范。
+2. 技术评审和代码审核会议中，分别时记下文档和代码中存在的规范问题，并且积极修改以达到公司的标准。
+3. 每周做一次成长分享，汇报自己在规范方面的成长情况，听取导师的进一步建议。
+
+### 目标
+
+了解竞价模块的整体架构，能够清晰阐述主要模块之间的关系
+
+### 计划
+
+1. 反复阅读架构文档（DDD架构），包括高层架构图、模块划分图等。
+2. 每天选取一个模块关系对进行详细分析，将分析结果记录下来，绘制简单的模块关系图，展示模块之间的调用关系、数据流向等。
+3. 在每周的成长分享会议中，争取从倾听者转变为具有提出一些问题的成员。
+
+### 目标
+
+能够根据简单需求进行初步的设计，并能对已有设计进行简单的评估。
+
+### 计划
+
+1. 在公司的代码库中寻找遵循这些设计原则的案例，分析案例中是如何应用设计原则的。
+2. 将自己的设计方案在技术评审会议中评审。根据他们的反馈意见，对设计方案进行修改和完善。
+3. 在每周的成长分享会议中，与团队成员进行深入讨论，听取不同的观点和意见。
