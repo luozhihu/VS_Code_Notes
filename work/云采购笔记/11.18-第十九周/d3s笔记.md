@@ -1,0 +1,6 @@
+## findById(Long id)
+> Controller->application(service)->infrastructure(query)->infrastructure(dao)
+## findPage(Query query)
+> Controller->application(service)->infrastructure(query)->infrastructure(dao)
+## createGood(Goods goods)
+> Controller->application(service/impl)->domain(repository)->infrastructure(database)
