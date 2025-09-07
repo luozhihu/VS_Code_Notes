@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "64c20807160a323f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a73047495c4d1492",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbde5e4c834d046c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "就业/社招/操作系统/内存管理/如何避免预读失效和缓存污染的问题.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "如何避免预读失效和缓存污染的问题"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2490945ac3beb43",
+    "type": "split",
+    "children": [
+      {
+        "id": "f729a91108490bad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae76b1bd512ce78b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "05ddc0b59549e781",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "dc507bb6e39e6fb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 393.5
+  },
+  "right": {
+    "id": "615b2c39341d8d2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2a7763ca1ac68e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "631de97d1169d9e3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "就业/社招/操作系统/内存管理/如何避免预读失效和缓存污染的问题.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "如何避免预读失效和缓存污染的问题 的反向链接列表"
+            }
+          },
+          {
+            "id": "4f1a6a3241fdadf1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "就业/社招/计算机网络/tcp/如何理解TCP面向字节流.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "如何理解TCP面向字节流 的出链列表"
+            }
+          },
+          {
+            "id": "38f857c7d644d7aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "46fbf1898d63ad36",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "就业/社招/计算机网络/tcp/如何理解TCP面向字节流.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "如何理解TCP面向字节流 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "fbde5e4c834d046c",
+  "lastOpenFiles": [
+    "Pasted image 20250907004704.png",
+    "Pasted image 20250907004629.png",
+    "Pasted image 20250907004341.png",
+    "Pasted image 20250907003749.png",
+    "Pasted image 20250907003720.png",
+    "就业/社招/操作系统/内存管理/内存满了，会发生什么.md",
+    "就业/社招/操作系统/内存管理/如何避免预读失效和缓存污染的问题.md",
+    "Pasted image 20250906233446.png",
+    "Pasted image 20250906233437.png",
+    "Pasted image 20250906232328.png",
+    "Pasted image 20250906231515.png",
+    "就业/社招/操作系统/内存管理/malloc 是如何分配内存的.md",
+    "Pasted image 20250906221541.png",
+    "Pasted image 20250906221508.png",
+    "就业/社招/计算机网络/tcp/TCP.md",
+    "就业/社招/操作系统/内存管理",
+    "就业/社招/操作系统",
+    "就业/社招/计算机网络/tcp/TCP KeepAlive与HTTP Keep-Alive.md",
+    "就业/社招/计算机网络/tcp/TCP在哪些情况下会丢包.md",
+    "就业/社招/计算机网络/tcp/UDP端口与TCP的端口.md",
+    "就业/社招/计算机网络/tcp/SYN 报文什么时候情况下会被丢弃？.md",
+    "就业/社招/计算机网络/tcp/在 TIME_WAIT 状态的 TCP 连接，收到 SYN 后会发生什么？.md",
+    "就业/社招/计算机网络/tcp/已建立连接的TCP，收到SYN会发生什么？.md",
+    "就业/社招/计算机网络/tcp/为什么 TCP 每次建立连接时，初始化序列号都要不一样呢？.md",
+    "就业/社招/计算机网络/tcp/四次挥手中收到乱序的 FIN 包会如何处理？.md",
+    "就业/社招/计算机网络/tcp/四次挥手，可以变成三次吗？.md",
+    "就业/社招/计算机网络/tcp/如何优化TCP.md",
+    "就业/社招/计算机网络/tcp/如何理解TCP面向字节流.md",
+    "就业/社招/计算机网络/tcp/没有 accept，能建立 TCP 连接吗.md",
+    "就业/社招/计算机网络/tcp/服务端没有 listen，客户端发起连接建立，会发生什么？.md",
+    "就业/社招/计算机网络/ip协议/IP基础.md",
+    "就业/社招/计算机网络/ip协议",
+    "未命名.canvas",
+    "就业/社招/计算机网络/http/http.md",
+    "就业/社招/计算机网络/http/img",
+    "就业/社招/计算机网络/tcp/img"
+  ]
+}
